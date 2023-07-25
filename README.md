@@ -24,7 +24,7 @@ Let me explain the main functions and their purpose:
 
 
 
-<font color="blue">Import required libraries</font>
+### Import required libraries
 
 ```python
 
