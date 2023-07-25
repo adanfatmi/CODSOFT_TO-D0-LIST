@@ -24,7 +24,7 @@ Let me explain the main functions and their purpose:
 
 
 
-### Import required libraries
+- ![#f03c15] `### Import required libraries`
 
 ```python
 
@@ -33,6 +33,9 @@ from tkinter import ttk
 from tkinter import messagebox
 import sqlite3 as sql
 ```
+
+
+
 
 
 ### Add Task
