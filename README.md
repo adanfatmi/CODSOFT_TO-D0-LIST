@@ -24,7 +24,7 @@ Let me explain the main functions and their purpose:
 
 
 
-### import required libraries
+### Import required libraries
 
 ```python
 
@@ -32,4 +32,20 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 import sqlite3 as sql
+```
+
+
+### Add Task
+
+```python
+
+def add_task():
+    task_string = task_field.get()
+    if len(task_string) == 0:
+        messagebox.showinfo('Error', 'Field is Empty.')
+    else:
+        tasks.append(task_string)
+        the_cursor.execute('insert into tasks values (?)', (task_string,))
+        list_update()
+        task_field.delete(0, 'end')
 ```
