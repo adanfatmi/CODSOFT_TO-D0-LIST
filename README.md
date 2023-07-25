@@ -24,7 +24,7 @@ Let me explain the main functions and their purpose:
 
 
 
-- ![#f03c15] `### Import required libraries`
+<font color="blue">Import required libraries</font>
 
 ```python
 
