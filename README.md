@@ -16,3 +16,20 @@ Let me explain the main functions and their purpose:
 
 `retrieve_database()`: This function retrieves all tasks from the database and stores them in the tasks list. It is probably used to populate the list with previously saved tasks when the application starts.
 
+
+
+
+
+
+
+
+
+### import required libraries
+
+```python
+
+import tkinter as tk
+from tkinter import ttk
+from tkinter import messagebox
+import sqlite3 as sql
+```
