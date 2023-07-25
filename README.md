@@ -48,4 +48,5 @@ def add_task():
         the_cursor.execute('insert into tasks values (?)', (task_string,))
         list_update()
         task_field.delete(0, 'end')
+
 ```
